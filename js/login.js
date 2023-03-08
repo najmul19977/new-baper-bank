@@ -1,10 +1,12 @@
 document.getElementById('submit-btn').addEventListener('click',function(){
     const emailField = document.getElementById('email-input');
     const email = emailField.value;
+    emailField.value='';
     
     //console.log(email);
     const passFile = document.getElementById('pass-input');
     const pass = passFile.value;
+    passFile.value='';
     
     //console.log(pass);
     if(email ==='sontan@bap.com' && pass ==='12345'){
